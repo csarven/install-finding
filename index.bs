@@ -92,6 +92,14 @@ Additionally, we expect operating system providers to launch installed websites 
 For example, if the user asks their browser to keep them logged in across the installation operation, that's only possible if the installed site launches in the original browser.
 The user had their own reasons to choose a particular user agent to perform the installation, and we expect that choice to be respected across launches.
 
+## No Capability Gating ## {#no-capability-gating}
+
+We expect user agents not to gate web features on installation, unless the feature requires the website to be registered with the operating system.
+
+<div class="example" id="capability-examples">
+[File handlers](https://wicg.github.io/manifest-incubations/#file_handlers-member) (see [[MANIFEST-INCUBATIONS]]) or the Badging API (see [[BADGING]]) naturally require an app identity or icon to be registered with the operating system.
+</div>
+
 The role of programmatic install APIs {#programmatic-install-apis}
 ==================================================================
 
