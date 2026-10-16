@@ -107,7 +107,7 @@ The Badging API (see [[BADGING]]) is exceptional because it adds a badge to the 
 </div>
 
 <div class="example" id="file-handling-api-example">
-The [File Handling API](https://wicg.github.io/manifest-incubations/#file_handlers-member) (see [[MANIFEST-INCUBATIONS]]) is exceptional because it requires an app identity registered with the operating system so that it can be selected from the <samp>Open With</samp> list (second exception).
+The [File Handling API](https://wicg.github.io/manifest-incubations/#file_handlers-member) (single-engine, see [[MANIFEST-INCUBATIONS]]) is exceptional because it requires an app identity registered with the operating system so that it can be selected from the <samp>Open With</samp> list (second exception).
 </div>
 
 <div class="example" id="push-api-example">
