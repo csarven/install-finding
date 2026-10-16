@@ -102,14 +102,14 @@ The exceptions are features that
 
 Even the second should only motivate exceptions when there's no other clear way for users to manage that option beyond uninstalling the website.
 
-<div class="example" id="badging-api-example">
+<aside class="example" id="badging-api-example">
 The Badging API (see [[BADGING]]) is exceptional because it adds a badge to the application's icon and therefore requires an icon to be present (first exception).
-</div>
+</aside>
 
-<div class="example" id="push-api-example">
+<aside class="example" id="push-api-example">
 The Push API (see [[PUSH-API]]) is exceptional because some operating systems might register applications allowed to send push notifications in a central surface (second exception).
 However, it might be just as easy to revoke the permission for push notifications from that surface as to uninstall the website.
-</div>
+</aside>
 
 The role of programmatic install APIs {#programmatic-install-apis}
 ==================================================================
