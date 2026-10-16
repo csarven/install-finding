@@ -122,7 +122,7 @@ Website authors repeatedly ask for an API that lets them trigger the browser's i
 Chromium-based browsers have exposed such an API since 2015, the [`beforeinstallprompt`](https://developer.mozilla.org/en-US/docs/Web/API/Window/beforeinstallprompt_event) event (see [[MANIFEST-INCUBATIONS]]).
 Its design stems from a time when browsers prompted users spontaneously, and when installation was subject to meeting certain criteria, such as the presence of a service worker.
 Since then, browsers have found that users do not want these spontaneous prompts, and only show them after the website has asked for them.
-The Web Applications Working Group has found consensus that installation should not depend on install criteria, but that [any website is an installable web application](https://www.w3.org/TR/appmanifest/#installable-web-applications).
+The Web Applications Working Group has consensus that installation should not depend on install criteria. That is, any website is installable.
 What remains is a browser-sent event that provides a handle to trigger the install prompt, which is a rather unusual design.
 
 The TAG has reviewed several proposals for new programmatic install APIs, both [same-origin](https://github.com/w3ctag/design-reviews/issues/888) and [cross-origin](https://github.com/w3ctag/design-reviews/issues/946), most recently the [manifest-first Web Install API](https://github.com/w3ctag/design-reviews/issues/1245).
