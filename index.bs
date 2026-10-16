@@ -47,7 +47,7 @@ Website authors report that they resort to native apps instead, and regularly as
 
 This finding is intended to guide user agent and operating system vendors.
 
-Note: This finding focuses on same-origin installs.
+NOTE: This finding focuses on same-origin installs.
 Cross-origin installs are currently not widely implemented across the platform.
 This topic might be revisited in a future version of this finding.
 
