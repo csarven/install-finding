@@ -31,6 +31,13 @@ Boilerplate: conformance no
     "authors": ["Daniel Murphy"],
     "publisher": "GitHub",
     "date": "10 September 2026"
+  },
+  "CHROME-ANDROID-INSTALL-FUNNEL": {
+    "title": "Chrome on Android Web App Install Flow data",
+    "href": "https://github.com/w3ctag/install-finding/issues/6",
+    "authors": ["Vincent Scheib"],
+    "publisher": "GitHub",
+    "date": "15 October 2026"
   }
 }
 </pre>
@@ -115,7 +122,7 @@ The role of programmatic install APIs {#programmatic-install-apis}
 ==================================================================
 
 Users often do not know that their browser can install websites, and browsers often do not know the appropriate time to inform them (see [[CHROME-INSTALL-TELEMETRY]]).
-Websites have more information about whether visitors are likely to want to install the site and when a good time is to educate those visitors.
+Websites have more information about whether visitors are likely to want to install the site and when a good time is to educate those visitors (see [[CHROME-ANDROID-INSTALL-FUNNEL]]).
 However, websites also have incentives to nag users.
 
 Website authors repeatedly ask for an API that lets them trigger the browser's install flow themselves.
